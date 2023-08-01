@@ -1,3 +1,11 @@
+import AppLayout from "@/components/AppLayout";
+
 export default function Home() {
-  return <></>;
+  return (
+    <>
+      <AppLayout>
+        <div>Hello, Next!</div>
+      </AppLayout>
+    </>
+  );
 }
